@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif, 'HelveticaNeue';
+}
+
+.score {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.game {
+  position: relative;
+  box-shadow: 1px 1px 20px #B6E0FB;
+  border-radius: 16px;
+  background-color: rgb(229, 229, 229);
+  box-shadow: 1px 1px 21px #cfe8ff;
+  margin-top: 15px;
+}
+
+.cell {
+  background-color: #f00;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  border-radius: 55%;
+  opacity: 0.7;
+  cursor: pointer;
+}
+button {
+  outline: none;
+  color: white;
+  box-shadow: none;
+  width: 102px;
+  height: 44px;
+  background: #31a3ec;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+}
